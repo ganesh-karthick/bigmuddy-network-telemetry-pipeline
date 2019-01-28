@@ -2,19 +2,28 @@
 
 
 [[projects]]
-  digest = "1:b7b1c24379c90ec2173a90d17adab8b28c3e94f0e31b1143185d32f289796bdb"
+  digest = "1:ed77032e4241e3b8329c9304d66452ed196e795876e14be677a546f36b94e67a"
+  name = "github.com/DataDog/zstd"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "c7161f8c63c045cbc7ca051dcc969dd0e4054de2"
+  version = "v1.3.5"
+
+[[projects]]
+  digest = "1:28917d5a3f5e53a4c8a4035195c022649c66a4d71d6357a2276cd347945bd527"
   name = "github.com/Shopify/sarama"
   packages = ["."]
   pruneopts = "UT"
-  revision = "0fb560e5f7fbcaee2f75e3c34174320709f69944"
-  version = "v1.11.0"
+  revision = "03a43f93cd29dc549e6d9b11892795c206f9c38c"
+  version = "v1.20.1"
 
 [[projects]]
-  digest = "1:9a4d738f4c808816a9709c5e5c5882d25851738c72b66e41a87a5c978aece72c"
+  digest = "1:87c2e02fb01c27060ccc5ba7c5a407cc91147726f8f40b70cceeedbc52b1f3a8"
   name = "github.com/Sirupsen/logrus"
   packages = ["."]
   pruneopts = "UT"
-  revision = "881bee4e20a5d11a6a88a5667c6f292072ac1963"
+  revision = "e1e72e9de974bd926e5c56f83753fba2df402ce5"
+  version = "v1.3.0"
 
 [[projects]]
   digest = "1:5bb36304653e73c2ced864d49c9f344e7141a7ceef852442edcea212094ebc3c"
@@ -674,14 +683,16 @@
   version = "v1.2.1"
 
 [[projects]]
-  digest = "1:4fed33bbaef0540eb6b117c54a30156d8b2978be04e8b095dd6945238a81c1a4"
+  digest = "1:69148993c8baff35dbb0b5ec92eccb6b75b2b7255a4ad1257be38f51fff8f267"
   name = "github.com/golang/protobuf"
   packages = [
     "jsonpb",
     "proto",
+    "ptypes/struct",
   ]
   pruneopts = "UT"
-  revision = "8ee79997227bf9b34611aee7946ae64735e6fd93"
+  revision = "aa810b61a9c79d51363740d207bb46cf8e620ed5"
+  version = "v1.2.0"
 
 [[projects]]
   digest = "1:06c8168453decb3d6db47d2fcac0f58332a535631fae7e63238e481e827f5258"
@@ -702,12 +713,12 @@
   revision = "759d78feb1727cc9cfabfc61263b9808b1117d83"
 
 [[projects]]
-  digest = "1:1e5bf9cae557702ebbd51a32a94b47e3d1a20b7637682be08da8cf62152ec781"
-  name = "github.com/klauspost/crc32"
+  digest = "1:0a69a1c0db3591fcefb47f115b224592c8dfa4368b7ba9fae509d5e16cdc95c8"
+  name = "github.com/konsorten/go-windows-terminal-sequences"
   packages = ["."]
   pruneopts = "UT"
-  revision = "cb6bfca970f6908083f26f39a79009d608efd5cd"
-  version = "v1.1"
+  revision = "5c8c8bd35d3832f5d134ae1e1e375b69a4d25242"
+  version = "v1.0.1"
 
 [[projects]]
   digest = "1:ff5ebae34cfbf047d505ee150de27e60570e8c394b3b8fdbb720ff6ac71985fc"

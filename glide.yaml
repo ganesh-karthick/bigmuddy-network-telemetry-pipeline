@@ -5,9 +5,10 @@ import:
 - package: github.com/dlintw/goconf
 - package: github.com/evalphobia/logrus_fluent
 - package: github.com/golang/protobuf
+  version: ^v1.0.0
   subpackages:
-  - jsonpb
-  - proto
+    - jsonpbgit apply --verbose ./vendor.patch
+    - proto
 - package: github.com/influxdata/influxdb
   subpackages:
   - client/v2
@@ -18,13 +19,16 @@ import:
   subpackages:
   - ssh/terminal
 - package: golang.org/x/net
+  version: 66aacef3dd8a676686c7ae3716979581e8b03c47
   subpackages:
   - context
 - package: google.golang.org/grpc
+  version: ^1.8.1
   subpackages:
   - credentials
   - peer
 - package: gopkg.in/bsm/sarama-cluster.v2
+  version: f1ef2fda9bccc377dad24d7f7522d46b6a9a817b
 - package: github.com/cisco/bigmuddy-network-telemetry-proto
   subpackages:
   - proto_go
